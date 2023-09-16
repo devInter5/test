@@ -1,5 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Open+Sans:wght@400;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #000;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    column-gap: 232px;
+}
+
+.nusa-foto {
+    max-width: 598px;
+    width: 100%;
+    height: 720px;
+    margin:0 228px;
+}
+
+.nusa-types {
+    color: #fff;
+}
+
+.nusa-name {
+    color:#FBD784;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+}
+
+.nusa-title {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nusa-text {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
 }
