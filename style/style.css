@@ -7,21 +7,42 @@
     background-color: #000;
 }
 
-.content {
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-content {
     display: flex;
     flex-direction: row;
-    column-gap: 232px;
+    column-gap: 525px;
+}
+
+.navigation {
+    column-gap: 50px;
+}
+
+.nusa-content {
+    display: flex;
+    flex-direction: row;
+    column-gap: 200px;
+}
+
+.logo-text {
+    color: #fff;
 }
 
 .nusa-foto {
     max-width: 598px;
     width: 100%;
     height: 720px;
-    margin:0 228px;
 }
 
 .nusa-types {
     color: #fff;
+    row-gap: 27px;
 }
 
 .nusa-name {
@@ -31,6 +52,7 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 6px;
+    padding-top: 90px;
 }
 
 .nusa-title {
